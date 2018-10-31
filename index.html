@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Horror Films </title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <form>
+          <h1> Horror Films: Origins and Influences </h1><br>
+            <p> Horror is a genre that thrives on the fear of its viewers. Whether its a slight jump in your seat or turning your eyes away from the screen due to pure terror, this genre is always reinventing itself to reach the pinnacle of fear. Originating in the 1890s and continuing to march on to this day, horror continues to find new ways to get your blood pumping and heart racing. To call yourself a true horror fanatic <a href="https://en.wikipedia.org/wiki/Horror_film">read this</a>, then take the quiz below.</p>
+            <p><a href="https://en.wikipedia.org/wiki/Horror_film">https://en.wikipedia.org/wiki/Horror_film</a></p>
+
+            <label class="form-control-label" for="question1"> Who created the first series of horror films?</label>
+            <input class="form-control" type="text" name="horrorcreator" id="horrorcreator"><br>
+
+            <label class="form-control-label" for="question2"> What new genre  of horror films was created in the 1970s? <em> (Suspiria belongs to this genre)</em></label>
+            <input class="form-control" type="text" name="newgenre" id="newgenre"><br>
+
+            <label class="form-control-label" for="question3"> What were the characteristics of films created in the mini-movement of metafictional horror films in the 1990s? How did Candyman and In the Mouth of Madness fit in this movement?</label>
+            <textarea class="form-control" name="metafictional" rows="4" id="metafictional"></textarea><br>
+
+              <div class="form-group">
+                <label class="form-control-label" for="question4"> What subgenre of horror deliberately focuses on graphic portrayals of gore and graphic violence?</label>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="graphichorror" value="slasher"> Slasher
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="graphichorror" value="splatter"> Splatter
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="graphichorror" value="body"> Body
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="graphichorror" value="zombie"> Zombie
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-control-label" for="question5"> Which films were made in the 1970s?</label>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="70shorror" value="wickerman"> The Wicker Man
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="70shorror" value="shining"> The Shining
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="70shorror" value="exorcist"> The Exorcist
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="70shorror" value="friday"> Friday the 13th
+                      </label>
+                  </div>
+                </div>
+
+              <label class="form-control-label" for="question6"> Which countries banned I Spit on Your Grave? <em>(Hold shift to select multiple)</em></label>
+              <select class="form-control" name="ban" size="3" id="ban" multiple>
+                <option value="ireland">Ireland</option>
+                <option value="china"> China</option>
+                <option value="norway"> Norway</option>
+                <option value="russia"> Russia</option>
+                <option value="iceland"> Iceland</option>
+                <option value="westgermany"> West Germany</option>
+              </select><br>
+
+              <button class="btn btn-primary btn-sm" type="submit" name="submit" value="submit">Submit Answers</button>
+              <button class="btn btn-secondary btn-sm" type="reset" name="reset" value="Reset">Start Over</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
